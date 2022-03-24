@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+.dropdown:focus-within .dropdown-menu {
+  opacity: 1;
+  transform: translate(0) scale(1);
+  visibility: visible;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.sidebar-bg-color {
+  background-color: white !important;
+}
 /* body {
   display: flex;
   align-items: center;
